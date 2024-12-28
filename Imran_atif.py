@@ -408,7 +408,7 @@ logo = """
     \33[1;35m╠══[CREATED  : ATIF KHAN     ║
     \33[1;37m╠══[NETWORK  : \33[1;34mSPEED 4G \33[1;36m      ║
     \33[1;37m╠══[TOOLS    : \33[1;38mFREE \33[1;37m          ║
-    \33[1;34m╠══[VERSION  : \33[1;31m0.02 \33[1;38m          ║
+    \33[1;34m╠══[VERSION  : \33[1;31m0.03 \33[1;38m          ║
     \33[1;33m╚═════════════════════════════╝                 
 """
  
@@ -472,11 +472,11 @@ class Main:
 			Main()
  
 	def old(self):
-		x = 111111111
-		xx = 999999999
-		idx = "100000" 
+		x = 1111111
+		xx = 9999999
+		idx = "10000" 
 		os.system('clear');print(logo)
-		limit = int(input(" \n\033[1;37m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
+		limit = int(input(" \n\033[1;37m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 60,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -494,7 +494,7 @@ class Main:
 				print(logo)
 				print("     \033[0;93m   FREE MODE ACTIVATE")
 				print("\n\033[0;94m [+] BRUTE HAS BEEN START")
-				print(" \033[0;96m[+] Note: Cp Ac Open 70% JUST NOW")
+				print(" \033[0;96m[+] Note: Cp Ac Open 50% JUST NOW")
 				print(" [!] IF NO RESULT USE AIRPLANE MODE 5 SECONDS")
 				print("\033[0;94m----------------------------------------------")
 				print("\n")
